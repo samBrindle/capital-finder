@@ -23,7 +23,7 @@ class handler(BaseHTTPRequestHandler):
             country = country_data["name"]["common"]
             countries.append(country)
 
-        message = f"{query_dict['capital']} is the capital of {str(countries)}"
+        message = f"{query_dict['capital']} is the capital of {countries[0]}"
     elif "name" in query_dict:
         url = "https://restcountries.com/v2/name/"
         response = requests.get(url + query_dict["name"])

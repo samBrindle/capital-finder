@@ -8,4 +8,6 @@
 * https://requests.readthedocs.io/en/latest/
 
 ### Examples:
-
+* https://capital-finder-brindle.vercel.app/api/capital-finder?name=Peru
+  * The capital of Peru is Lima
+* 
